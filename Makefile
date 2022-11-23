@@ -6,7 +6,7 @@
 #    By: mikhalil <marvin@codam.nl>                   +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/11/12 17:15:07 by mikhalil      #+#    #+#                  #
-#    Updated: 2022/11/12 17:49:40 by mikhalil      ########   odam.nl          #
+#    Updated: 2022/11/23 12:34:06 by mikhalil      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,8 @@ LIBFT = ./libft/libft.a
 
 OBJ = $(SRC:.c=.o)
 
-CFLAGS = -Wall -Werror -Wextra
+#CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Wextra
 
 NAME = libftprintf.a
 
